@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="7585" started-at="2018-04-24T16:26:08Z" finished-at="2018-04-24T16:26:15Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="7585" started-at="2018-04-24T16:26:08Z" finished-at="2018-04-24T16:26:15Z">
+      <class name="TryJenkinsHW.TestSuite">
+        <test-method status="PASS" signature="selectBrowser()[pri:0, instance:TryJenkinsHW.TestSuite@47f6473]" name="selectBrowser" is-config="true" duration-ms="6215" started-at="2018-04-24T17:26:08Z" finished-at="2018-04-24T17:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method status="PASS" signature="userShouldBeAbleToNavigateOnElectronicsCategoryPage()[pri:0, instance:TryJenkinsHW.TestSuite@47f6473]" name="userShouldBeAbleToNavigateOnElectronicsCategoryPage" duration-ms="1352" started-at="2018-04-24T17:26:14Z" finished-at="2018-04-24T17:26:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldBeAbleToNavigateOnElectronicsCategoryPage -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:TryJenkinsHW.TestSuite@47f6473]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2018-04-24T17:26:15Z" finished-at="2018-04-24T17:26:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userShouldBeAbleToNavigateOnElectronicsCategoryPage status=SUCCESS method=TestSuite.userShouldBeAbleToNavigateOnElectronicsCategoryPage()[pri:0, instance:TryJenkinsHW.TestSuite@47f6473] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- TryJenkinsHW.TestSuite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
